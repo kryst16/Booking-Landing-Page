@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavish Suite Booking</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Hero Section with Background Overlay -->
+    <div class="hero-section">
+        <div class="container">
+            <h1>Luxury Redefined</h1>
+            <p>Indulge in the lavish experience of our exclusive suites. Book now for an unforgettable stay!</p>
+            <a href="#booking" class="btn btn-booking">Book Now</a>
+        </div>
+    </div>
+     <!-- Room Cards Section -->
+     <div class="container mt-5">
+        <h2 class="mb-4">Our Lavish Rooms</h2>
+        <div class="row">
+            <!-- Room Card 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20220311/pngtree-bedroom-guest-room-five-star-hotel-image_990205.jpg" class="card-img-top" alt="Room 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Deluxe Suite</h5>
+                        <p class="card-text">Spacious and elegantly designed suite with a stunning view.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Room Card 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://cdn.marriottnetwork.com/uploads/sites/23/2022/10/Executive-Suite-Living-and-Dining-Rooms-5091-788x650.jpg" class="card-img-top" alt="Room 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Executive Suite</h5>
+                        <p class="card-text">Luxurious suite with premium amenities and personalized services.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Room Card 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://www.theleela.com/prod/content/assets/styles/tl_1920_735/public/aio-banner/dekstop/presidential-suite-leela-palace-hotel-delhi.jpg?VersionId=zFhYFpIL3Nor0dQFL.ScJ3v_8rVxAJ_b&itok=c7mTmXM7" class="card-img-top" alt="Room 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Presidential Suite</h5>
+                        <p class="card-text">The epitome of luxury, offering a grand living space and exclusive services.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Booking Section -->
+    <div class="container mb-5" id="booking">
+        <h2 class="mt-5 mb-4 text-center">Book Your Lavish Suite</h2>
+        <form>
+            <!-- Add your booking form fields here -->
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="checkInDate">Check-in Date</label>
+                <input type="date" class="form-control" id="checkInDate" required>
+            </div>
+            <div class="form-group">
+                <label for="checkOutDate">Check-out Date</label>
+                <input type="date" class="form-control" id="checkOutDate" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <footer class="bg-secondary text-center p-4 text-light">
+        <div class="overlay"></div>
+        <p>&copy; 2023 Luxury Suite Hotel. All rights reserved.</p>
+    </footer>
+   
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
